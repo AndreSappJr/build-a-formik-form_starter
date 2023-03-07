@@ -5,7 +5,7 @@ import {useFormik} from 'formik'
 function App() {
   const formik = useFormik ({
     initialValues: {
-      name: '',
+      username: '',
       email: '',
       password: ''
     },
